@@ -1,2 +1,2 @@
-# uyadav1991.github.io
+# uyadav.github.io
 My Website repository
