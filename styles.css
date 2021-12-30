@@ -1,0 +1,126 @@
+<style>
+  html {
+     background: #f7f7f7;
+     }
+  
+  body {
+     background: white;
+     max-width: 1000px;
+     margin: 0 auto;
+     /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+     /*font-family: "Times New Roman", serif; */
+     font-family: 'Barlow', sans-serif;
+     color: rgb(49,46,46);
+  }
+ 
+
+  header,footer {
+     background:#333a40;
+     color: white;
+     }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style: inside circle;
+    /* list-style: none; */
+    line-height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+ 
+  a:hover{ /* When the mouse hover over them */
+    color: #0e69e9;
+  }
+
+  header li { /* only headers to be inline */
+    display: inline;
+  }
+
+  header h1, nav { /* h1 and nav in the headers are inline */
+    display: inline-block;
+  }
+
+  /*footer li {
+    list-style: inside circle;
+    margin: 0 0 0 10px;
+  } */
+
+  main {
+    width: 680px;
+    display: inline-block;
+    padding: 10px;
+  }
+
+  aside {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+  }
+
+  #name{ /* for id defined */
+     background: red;
+     }
+   
+  .button{ /* For classes defined */
+    padding: 10px;
+    display: inline-block;
+  }
+ 
+  .button:last-of-type{
+    background: #0e69e9;   
+    color: white;
+  }
+
+/*  li:nth-of-type(3){
+    color:red;
+  }
+*/
+  p:first-of-type{
+    color:red;
+  }
+
+  .product{
+     box-sizing: border-box;
+     border: 1px solid grey;
+     width: 210px;
+     margin: 5px;
+     padding: 5px;
+     /*overflow: hidden; cuts the overflowing image*/
+     display: inline-block; 
+   }
+
+   footer li{
+       list-style-type: none;
+   }
+
+   img{
+     max-width: 100%; /* image doesnt stretches further*/
+   }
+
+   /* Product detail page */
+   .product-detail{
+      width: 600px;
+   }
+
+   .product-detail img{
+      max-width: 50%;
+      float: left;
+   }
+
+   #position{
+      position: absolute; /* Fixed - on the screen even if you scroll */
+                       /* Relative- to the div */
+                       /* Absolute- to the div */
+      top: 10px;
+      left: 10px;
+   }
+
+</style>
